@@ -1,0 +1,1 @@
+"<?= $this->chain(' foo ')->trim() ?>"

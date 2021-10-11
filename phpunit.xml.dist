@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" backupGlobals="false" backupStaticAttributes="false" colors="true" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" processIsolation="false" stopOnFailure="false" bootstrap="vendor/autoload.php" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd">
+  <testsuites>
+    <testsuite name="Stuck Template Test Suite">
+      <directory>./tests/</directory>
+      <exclude>./tests/Fixtures</exclude>
+    </testsuite>
+  </testsuites>
+  <php>
+    <ini name="error_reporting" value="-1" />
+    <ini name="xdebug.mode" value="coverage" />
+  </php>
+  <coverage>
+    <include>
+      <directory suffix=".php">src</directory>
+    </include>
+    <report>
+      <html outputDirectory="coverage/html" />
+      <text outputFile="php://stdout" />
+    </report>
+  </coverage>
+</phpunit>

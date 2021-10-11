@@ -1,0 +1,22 @@
+{
+    "name": "eghojansu/stuck-template",
+    "description": "PHP Template",
+    "keywords": ["php8", "php template", "vanila php"],
+    "authors": [
+        {
+            "name": "Eko Kurniawan",
+            "email": "setiawanegho@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stuck\\Template\\": "./src/"
+        }
+    },
+    "require": {
+        "php": "^8.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
