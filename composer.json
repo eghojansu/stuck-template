@@ -1,7 +1,7 @@
 {
     "name": "eghojansu/stuck-template",
     "description": "PHP Template",
-    "keywords": ["php8", "php template", "vanila php"],
+    "keywords": ["php8", "php template", "vanilla php"],
     "license": "MIT",
     "authors": [
         {
