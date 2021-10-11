@@ -2,6 +2,7 @@
     "name": "eghojansu/stuck-template",
     "description": "PHP Template",
     "keywords": ["php8", "php template", "vanila php"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Eko Kurniawan",
